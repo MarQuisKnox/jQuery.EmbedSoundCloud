@@ -123,7 +123,7 @@
 
     function _embed( $el, options ) {
     	var elContent	= $el.html();			
-    	var urlRegEx	= /^https?:\/\/(m\.)?(soundcloud.com|snd.sc)\/(.*)$/;
+    	var urlRegEx	= /https?:\/\/(m\.)?(soundcloud.com|snd.sc)\/(.*)$/;
     	var matches;
 			
 		// Embed URLs
